@@ -1,0 +1,8 @@
+lukefisher.me {
+    encode gzip
+    reverse_proxy personal-website
+}
+
+ljf.io {
+    redir https://lukefisher.me{uri}
+}
