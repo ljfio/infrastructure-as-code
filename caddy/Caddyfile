@@ -1,6 +1,6 @@
 lukefisher.me {
     encode gzip
-    reverse_proxy personal-website
+    reverse_proxy personal-website:80
 }
 
 ljf.io {
